@@ -70,6 +70,9 @@
                                         <state key="normal" title="ROLL">
                                             <color key="titleColor" red="1" green="0.99651214600000004" blue="0.98788830920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnRollClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VsU-Xm-OVg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -96,6 +99,10 @@
                             <constraint firstItem="zHh-wN-Hqp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qFh-rt-p65"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgDiceOne" destination="xA5-3g-Ccn" id="T5w-H8-3er"/>
+                        <outlet property="imgDiceTwo" destination="UMC-uz-LY5" id="uG3-ZJ-Yz9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
